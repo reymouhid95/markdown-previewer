@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  padding: 20px;
+}
+
+textarea#editor {
+  width: 45%;
+  height: 90vh;
+  padding: 10px;
+  font-size: 16px;
+}
+
+div#preview {
+  width: 45%;
+  height: 90vh;
+  padding: 10px;
+  background: #f4f4f4;
+  border: 1px solid #ccc;
+  overflow-y: scroll;
+}
